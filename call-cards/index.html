@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Call Cards</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+
+<body>
+
+
+  <!-- ================= FORM MODAL ================= -->
+  <div class="form-container">
+
+    <h2>New Call</h2>
+    <form>
+      <label>Image URL</label>
+      <input required type="text" placeholder="https://example.com/photo.jpg">
+
+      <label>Full Name</label>
+      <input required type="text" placeholder="Enter full name">
+
+      <label>Home Town</label>
+      <input required type="text" placeholder="Enter home town">
+
+      <label>Purpose</label>
+      <input required type="text" placeholder="e.g., Quick appointment note">
+
+      <label>Category</label>
+
+      <div class="tags">
+
+        <label class="tag emergency">
+          <input required type="radio" name="category" value="emergency">
+          <span>Emergency</span>
+        </label>
+
+        <label class="tag important">
+          <input type="radio" name="category" value="important">
+          <span>Important</span>
+        </label>
+
+        <label class="tag urgent">
+          <input type="radio" name="category" value="urgent">
+          <span>Urgent</span>
+        </label>
+
+        <label class="tag norush">
+          <input type="radio" name="category" value="morush">
+          <span>No Rush</span>
+        </label>
+
+      </div>
+
+
+      <button class="primary-btn">Create Note</button>
+      <button type="button" class="closeForm danger-btn">Close</button>
+    </form>
+  </div>
+  <div class="overlay"></div>
+
+  <!-- ================= NOTES STACK ================= -->
+  <div class="note-container">
+
+    <!-- Left icons -->
+    <div class="left-icons">
+      <button id="add-note"><i class="fa-solid fa-plus"></i></button>
+      <button id="upBtn"><i class="fa-solid fa-arrow-up"></i></button>
+      <button id="downBtn"><i class="fa-solid fa-arrow-down"></i></button>
+    </div>
+
+    <!-- Card Stack -->
+    <div class="stack">
+
+
+
+    </div>
+
+    <!-- Right color dots -->
+    <div class="right-colors">
+      <span class="dot black"></span>
+      <span class="dot purple"></span>
+      <span class="dot orange"></span>
+      <span class="dot green"></span>
+    </div>
+
+  </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
