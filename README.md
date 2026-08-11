@@ -2,90 +2,128 @@
 
 A collection of hands-on **Vanilla JavaScript projects** built to strengthen core web development fundamentals through practical implementation.
 
-These projects cover **DOM manipulation, event handling, array methods, browser APIs, state management, localStorage, asynchronous JavaScript, and object-oriented programming concepts**.
+These projects explore **DOM manipulation, event handling, browser APIs, localStorage, asynchronous JavaScript, state management, and object-oriented programming** by building interactive applications from scratch.
 
 ---
 
-## 📂 Projects Included
+## 🚀 Live Demos
 
-### 1. 📞 Call Cards
-**Folder:** `/call-cards`
-
-A dynamic contact card creator that collects user information through a form and stores created cards using `localStorage`.
-
-**Concepts:** Forms, DOM Manipulation, localStorage, Dynamic Rendering
-
----
-
-### 2. 🔎 Searching Cards
-**Folder:** `/searching-cards`
-
-A real-time search interface that filters and displays cards based on user input.
-
-**Concepts:** Array `filter()`, Input Events, DOM Manipulation, Dynamic UI
+| Project | Live Demo |
+|---------|-----------|
+| 📞 Call Cards | https://call-cards-sp.vercel.app |
+| 🔎 Searching Cards | https://searching-cards.vercel.app |
+| 🎮 Simon Says Game | https://simon-says-game-sp.vercel.app |
+| ⏱️ Stopwatch | https://stopwatch-sp.vercel.app |
+| ✅ To-Do App | https://todo-app-sp.vercel.app |
+| 🪪 ID Card Generator | https://id-card-generator-sp.vercel.app |
+| 🧠 OOP Demo | https://opp-demo-sp.vercel.app |
 
 ---
 
-### 3. 🎮 Simon Says Game
-**Folder:** `/simon-says-game`
+## ✨ Features
 
-A memory-based sequence game where players repeat an increasingly difficult pattern while tracking their progress and high score.
-
-**Concepts:** Game Logic, Event Handling, Arrays, Timeouts, State Management
-
----
-
-### 4. ⏱️ Stopwatch
-**Folder:** `/stopwatch`
-
-A functional stopwatch implementing start, stop, and reset functionality.
-
-**Concepts:** `setInterval()`, `clearInterval()`, Time Management, Event Handling
+- Interactive DOM manipulation
+- Dynamic UI rendering
+- Browser storage with localStorage
+- Event-driven applications
+- Form handling & validation
+- Real-time search & filtering
+- Object-oriented JavaScript concepts
+- Clean and responsive user interfaces
 
 ---
 
-### 5. ✅ To-Do App
-**Folder:** `/todo-app`
+## 📂 Projects
 
-A simple task management application for creating, updating, and removing tasks dynamically.
+### 📞 Call Cards (`/call-cards`)
 
-**Concepts:** CRUD Operations, DOM Manipulation, Event Handling, State Management
+A dynamic contact card creator that collects user information through forms and stores generated cards using **localStorage**.
 
----
+**Concepts Practiced**
 
-### 6. 🪪 ID Card Generator
-**Folder:** `/id-card-generator`
-
-A dynamic ID card generator that takes form input and renders the entered information into a styled card.
-
-**Concepts:** Form Handling, Data Extraction, DOM Manipulation, Dynamic Rendering
+- Forms
+- DOM Manipulation
+- localStorage
+- Dynamic Rendering
 
 ---
 
-### 7. 🧠 `this` Keyword & OOP Demo
-**Folder:** `/this-keyword-oop-demo`
+### 🔎 Searching Cards (`/searching-cards`)
 
-A small user profile manager created to understand object-oriented JavaScript and the behavior of the `this` keyword in different contexts.
+A real-time search interface that filters and displays cards instantly as users type.
 
-**Concepts:** Objects, Classes, Methods, `this` Keyword, OOP
+**Concepts Practiced**
+
+- Array `filter()`
+- Input Events
+- Dynamic Rendering
+- DOM Manipulation
 
 ---
 
-## 💡 What I Learned
+### 🎮 Simon Says Game (`/simon-says-game`)
 
-Through these projects, I practiced:
+A memory game where players repeat increasingly complex color sequences while tracking their progress.
 
-- DOM manipulation and dynamic element creation
-- Event handling and event-driven programming
-- Form handling and user input
-- Array methods such as `filter()` and `map()`
-- Browser APIs and `localStorage`
-- Managing application state with JavaScript
-- Timers using `setInterval()` and `clearInterval()`
-- Event bubbling and event propagation
-- Object-oriented programming
-- Understanding the `this` keyword and its context
-- Building interactive interfaces using Vanilla JavaScript
+**Concepts Practiced**
+
+- Game Logic
+- Arrays
+- Event Handling
+- Timeouts
+- State Management
+
+---
+
+### ⏱️ Stopwatch (`/stopwatch`)
+
+A functional stopwatch with start, stop, and reset controls.
+
+**Concepts Practiced**
+
+- `setInterval()`
+- `clearInterval()`
+- Time Management
+- Event Handling
+
+---
+
+### ✅ To-Do App (`/todo-app`)
+
+A CRUD-based task manager for creating, updating, and removing tasks dynamically.
+
+**Concepts Practiced**
+
+- CRUD Operations
+- DOM Manipulation
+- Event Handling
+- Dynamic UI
+
+---
+
+### 🪪 ID Card Generator (`/id-card-generator`)
+
+Generates a styled ID card dynamically using user-provided form data.
+
+**Concepts Practiced**
+
+- Form Handling
+- Data Extraction
+- DOM Manipulation
+- Dynamic Rendering
+
+---
+
+### 🧠 OOP Demo (`/opp-demo`)
+
+A small user profile manager built to understand object-oriented JavaScript and the behavior of the `this` keyword.
+
+**Concepts Practiced**
+
+- Objects & Classes
+- Methods
+- `this` Keyword
+- Object-Oriented Programming
 
 ---
 
@@ -99,9 +137,45 @@ Through these projects, I practiced:
 
 ---
 
+## 💡 What I Learned
+
+Throughout these projects, I practiced:
+
+- Creating dynamic user interfaces with JavaScript
+- Manipulating the DOM efficiently
+- Handling browser events and user interactions
+- Working with browser APIs and localStorage
+- Using array methods such as `filter()` and `map()`
+- Managing application state
+- Building timer-based applications
+- Understanding JavaScript's `this` keyword
+- Applying object-oriented programming principles
+- Structuring small-scale JavaScript applications
+
+---
+
 ## 🚀 Getting Started
 
 Clone the repository:
 
 ```bash
 git clone https://github.com/suryaprakash-sankhla/mini-projects.git
+```
+
+Navigate to any project folder:
+
+```bash
+cd project-folder
+```
+
+Open the project in your browser:
+
+```text
+Open index.html
+```
+
+---
+
+## 🎯 Purpose
+
+This repository documents my journey of mastering **core JavaScript** by building practical mini-projects that focus on real-world problem solving, browser APIs, and interactive user experiences.
